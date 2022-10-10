@@ -11,7 +11,7 @@ int doPatch(int argc, char *argv[]);
 
 extern "C"
 JNIEXPORT jint JNICALL
-Java_com_meishe_mshotfix_MSPatchUtils_doPatch(JNIEnv *env, jclass clazz, jstring old_apk_path,
+Java_com_meishe_patchupdate_MSPatchUtils_doPatch(JNIEnv *env, jclass clazz, jstring old_apk_path,
                                               jstring new_apk_path, jstring patch_path) {
 
     int args = 4;//参数长度

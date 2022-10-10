@@ -6,7 +6,7 @@ aux_source_directory(bzip2 B_SOURCE)  #批量导入源文件
 include_directories(bzip2)  #指定头文件的查找目录
 
 add_library(
-        mshotfix
+        patchupdate
         SHARED
         native-lib.cpp
         bspatch.c
@@ -20,5 +20,5 @@ find_library(
 
 
 target_link_libraries(
-        mshotfix
+        patchupdate
         ${log-lib})

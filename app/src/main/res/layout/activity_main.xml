@@ -12,13 +12,15 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="进行更新"
+        android:onClick="doPatch"
         android:layout_marginTop="20dp"
         />
+
     <TextView
         android:id="@+id/sample_text"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="更新前-------------------"
+        android:text="更新后-------------------"
         android:layout_marginTop="20dp" />
 
 </LinearLayout>
